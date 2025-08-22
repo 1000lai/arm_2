@@ -1,0 +1,4 @@
+../Core/Inc/UART_servo.h:21:2:UART_servo::UART_servo(uint16_t, uint16_t, UART_HandleTypeDef)	1
+../Core/Src/mainpp.cpp:20:6:void main_function()	1
+../Core/Src/mainpp.cpp:37:1:void __static_initialization_and_destruction_0(int, int)	3
+../Core/Src/mainpp.cpp:37:1:cpp)	1
