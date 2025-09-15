@@ -1,0 +1,6 @@
+../Core/Src/DC_motor.cpp:16:6:void DC_motor::PI_run()	40	static
+../Core/Src/DC_motor.cpp:53:6:void DC_motor::setspeed(float)	16	static
+../Core/Src/DC_motor.cpp:56:6:void DC_motor::update_speed(int)	24	static
+../Core/Src/DC_motor.cpp:63:6:void DC_motor::setup()	16	static
+../Core/Src/DC_motor.cpp:68:6:void DC_motor::set_motor_parameter(float, int)	24	static
+../Core/Src/DC_motor.cpp:75:6:void DC_motor::heightTo(float)	16	static

@@ -1,0 +1,7 @@
+../Core/Inc/motor_ctrl/Src/../Inc/motor_ctrl.hpp:18:5:MotorController::MotorController(TIM_HandleTypeDef*, TIM_HandleTypeDef*, uint32_t, GPIO_TypeDef*, uint16_t, double, double, double)	48	static
+../Core/Inc/motor_ctrl/Src/motor_monitor.cpp:27:6:void motor_init()	8	static
+../Core/Inc/motor_ctrl/Src/motor_monitor.cpp:31:6:void motor_monitor()	8	static
+../Core/Inc/motor_ctrl/Src/motor_monitor.cpp:42:6:bool cascade_complete()	8	static
+../Core/Inc/motor_ctrl/Src/motor_monitor.cpp:46:6:void cascade_monitor(float)	16	static
+../Core/Inc/motor_ctrl/Src/motor_monitor.cpp:48:1:void __static_initialization_and_destruction_0(int, int)	24	static
+../Core/Inc/motor_ctrl/Src/motor_monitor.cpp:48:1:cpp)	8	static

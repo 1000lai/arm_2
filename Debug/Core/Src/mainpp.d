@@ -1,5 +1,5 @@
-Core/Src/mainpp.o: ../Core/Src/mainpp.cpp ../Core/Inc/mainpp.h \
- ../Core/Inc/UART_servo.h \
+Core/Src/mainpp.o: ../Core/Src/mainpp.cpp ../Core/Inc/arm_2.h \
+ ../Core/Inc/mainpp.h ../Core/Inc/UART_servo.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -27,7 +27,13 @@ Core/Src/mainpp.o: ../Core/Src/mainpp.cpp ../Core/Inc/mainpp.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+ ../Core/Inc/arm/Inc/arm.h ../Core/Inc/motor_ctrl/Inc/motor_ctrl.hpp \
+ ../Core/Inc/stm32f4xx_it.h \
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h \
+ ../Core/Inc/motor_ctrl/Inc/motor_config.h \
+ ../Core/Inc/motor_ctrl/Inc/motor_monitor.hpp
+../Core/Inc/arm_2.h:
 ../Core/Inc/mainpp.h:
 ../Core/Inc/UART_servo.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
@@ -58,3 +64,9 @@ Core/Src/mainpp.o: ../Core/Src/mainpp.cpp ../Core/Inc/mainpp.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
+../Core/Inc/arm/Inc/arm.h:
+../Core/Inc/motor_ctrl/Inc/motor_ctrl.hpp:
+../Core/Inc/stm32f4xx_it.h:
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h:
+../Core/Inc/motor_ctrl/Inc/motor_config.h:
+../Core/Inc/motor_ctrl/Inc/motor_monitor.hpp:

@@ -1,0 +1,12 @@
+C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130\tools\bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/include/c++/12.3.1/cmath:241:3:constexpr float std::fabs(float)	16	static
+../Core/Inc/UART_servo.h:21:2:UART_servo::UART_servo(uint16_t, uint16_t, UART_HandleTypeDef)	16	static
+../Core/Src/arm.cpp:48:6:void arm_reset()	8	static
+../Core/Src/arm.cpp:67:6:void cascade_go(float)	32	static
+../Core/Src/arm.cpp:125:6:void HAL_GPIO_EXTI_Callback(uint16_t)	16	static
+../Core/Src/arm.cpp:137:6:void menu_camera()	8	static
+../Core/Src/arm.cpp:151:6:void menu_arm()	8	static
+../Core/Src/arm.cpp:174:6:void table_camera()	8	static
+../Core/Src/arm.cpp:186:6:void table_arm()	8	static
+../Core/Src/arm.cpp:216:6:void arm_test()	4	static
+../Core/Src/arm.cpp:225:1:void __static_initialization_and_destruction_0(int, int)	96	static
+../Core/Src/arm.cpp:225:1:cpp)	8	static

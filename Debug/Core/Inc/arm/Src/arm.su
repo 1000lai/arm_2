@@ -1,0 +1,14 @@
+../Core/Inc/UART_servo.h:21:2:UART_servo::UART_servo(uint16_t, uint16_t, UART_HandleTypeDef)	16	static
+../Core/Inc/arm/Src/arm.cpp:49:6:void arm_reset()	8	static
+../Core/Inc/arm/Src/arm.cpp:129:6:void menu_camera()	16	static
+../Core/Inc/arm/Src/arm.cpp:154:6:void menu_arm_1()	16	static
+../Core/Inc/arm/Src/arm.cpp:179:6:void menu_arm_2()	16	static
+../Core/Inc/arm/Src/arm.cpp:199:6:void table_camera()	16	static
+../Core/Inc/arm/Src/arm.cpp:223:6:void table_arm_1()	16	static
+../Core/Inc/arm/Src/arm.cpp:247:6:void table_arm_2()	16	static
+../Core/Inc/arm/Src/arm.cpp:266:6:void table_arm_3()	16	static
+../Core/Inc/arm/Src/arm.cpp:290:6:void arm_test()	8	static
+../Core/Inc/arm/Src/arm.cpp:308:6:void arm_mission(int)	16	static
+../Core/Inc/arm/Src/arm.cpp:341:6:bool arm_complete()	4	static
+../Core/Inc/arm/Src/arm.cpp:351:1:void __static_initialization_and_destruction_0(int, int)	96	static
+../Core/Inc/arm/Src/arm.cpp:351:1:cpp)	8	static
